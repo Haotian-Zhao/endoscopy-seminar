@@ -1,0 +1,183 @@
+/* Intentionally close to the unadorned MIT STAGE seminar-page style. */
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 8px;
+  background: #efefef;
+  color: #111;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1 {
+  margin: 0.67em 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.35em;
+  font-weight: normal;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #aaa;
+  margin: 0.5em 0;
+}
+
+a {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+a:focus-visible {
+  outline: 2px solid #1459c7;
+  outline-offset: 2px;
+}
+
+.intro {
+  margin-top: 8px;
+}
+
+.topic {
+  font-size: 1.4em;
+  margin: 19px 0;
+}
+
+.references-label {
+  font-size: 1.15em;
+  margin: 18px 0 12px;
+}
+
+.references-list {
+  margin-top: 0;
+  margin-bottom: 17px;
+}
+
+.schedule-note {
+  margin-top: 14px;
+  margin-bottom: 13px;
+}
+
+.schedule-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.schedule {
+  width: 650px;
+  max-width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: #101010;
+  font: 16px Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.schedule th,
+.schedule td {
+  padding: 3px 4px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.schedule th {
+  border-bottom: 2px solid #555;
+  font-weight: bold;
+}
+
+.schedule td:first-child {
+  white-space: nowrap;
+}
+
+.schedule tbody tr:nth-child(even) {
+  background: #dcdcdc;
+}
+
+.schedule col.meeting {
+  width: 130px;
+}
+
+.schedule col.speaker {
+  width: 174px;
+}
+
+.schedule-under {
+  width: 650px;
+  max-width: 100%;
+  margin-top: 8px;
+  font: 16px Arial, Helvetica, sans-serif;
+  text-align: right;
+}
+
+.small-note {
+  margin-top: 16px;
+}
+
+.page-footer {
+  margin-top: 14px;
+}
+
+.reading-intro {
+  max-width: 940px;
+}
+
+.meeting-details {
+  max-width: 940px;
+}
+
+.meeting-details section {
+  scroll-margin-top: 16px;
+  margin-top: 24px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #ccc;
+}
+
+.meeting-details h2 {
+  font-weight: bold;
+  margin: 0 0 12px;
+}
+
+.meeting-details p {
+  margin: 9px 0;
+}
+
+.abstracts section:target {
+  background: #e2e2e2;
+  padding-left: 8px;
+}
+
+.back-to-schedule {
+  margin-top: 26px;
+}
+
+@media (max-width: 520px) {
+  h1 {
+    font-size: 1.72em;
+  }
+
+  .schedule {
+    font-size: 14px;
+  }
+
+  .schedule col.meeting {
+    width: 80px;
+  }
+
+  .schedule col.speaker {
+    width: 80px;
+  }
+
+  .schedule th,
+  .schedule td {
+    padding: 5px 4px;
+  }
+}

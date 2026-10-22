@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>Endoscopy Seminar</title>
+  <rect width="32" height="32" rx="2" fill="#faf9f6"/>
+  <g fill="#214c3c">
+    <path d="M1 7h14v5h-1.8L12 8.8H5.5v5.5h5v-1.8h1.8v5.6h-1.8v-1.9h-5v7h6.8l1.2-3.5H15V25H1v-1.8h1.5V8.8H1Z"/>
+    <path d="M16.2 12h5.2v2c1.3-1.6 2.7-2.3 4.6-2.3 3.1 0 4.6 1.9 4.6 5.2v6.3H31V25h-5.5v-1.8h1.7v-6c0-2.2-.7-3.2-2.2-3.2-1.5 0-2.6.8-3.6 1.9v7.3h1.7V25h-6.9v-1.8H18V13.8h-1.8Z"/>
+  </g>
+</svg>

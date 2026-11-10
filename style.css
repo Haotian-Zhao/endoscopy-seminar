@@ -91,7 +91,7 @@ a:focus-visible {
 }
 
 .schedule {
-  width: 650px;
+  width: 1030px;
   max-width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
@@ -116,20 +116,24 @@ a:focus-visible {
   white-space: nowrap;
 }
 
+.schedule td:last-child {
+  white-space: nowrap;
+}
+
 .schedule tbody tr:nth-child(even) {
   background: #dcdcdc;
 }
 
 .schedule col.meeting {
-  width: 130px;
+  width: 180px;
 }
 
 .schedule col.speaker {
-  width: 174px;
+  width: 200px;
 }
 
 .schedule-under {
-  width: 650px;
+  width: 1030px;
   max-width: 100%;
   margin-top: 8px;
   font: 16px Arial, Helvetica, sans-serif;
